@@ -6,6 +6,11 @@ footer {
   height: 100px;
   background-color: #120d31;
   color: #f0d3f7;
+  justify-content: center;
+  align-items: center;
+}
+footer > * {
+  margin: 20px;
 }
 a:visited {
   color: #f0d3f7;
@@ -23,10 +28,36 @@ header {
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .x-center {
   justify-content: center;
 }
 .y-center {
   align-items: center;
+}
+
+.project {
+  margin: 10px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+}
+.project_header {
+  background-color: #302f4d;
+  color: #f0d3f7;
+  padding: 5px 5px 10px 5px;
+}
+.project_description {
+  background-color: #f0d3f7;
+  color: #302f4d;
+  padding: 5px;
+  height: 100%;
+}
+.project_description a:visited {
+  color: #302f4d;
+  display: block;
+  padding-top: 20px;
 }
