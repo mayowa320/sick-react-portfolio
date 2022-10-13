@@ -7,7 +7,7 @@ import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 export default function Navigation() {
   return (
     <div className="flex y-center x-center">
-      <Link to="/about" className="flex y-center">
+      <Link to="/" className="flex y-center">
         <InfoIcon /> <span>About</span>
       </Link>
       <Link to="/portfolio" className="flex y-center">
